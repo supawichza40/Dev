@@ -1,0 +1,7 @@
+C:\Work\Dev\C#\DelegateRealWorldExample\DelegateRealWorldExample\bin\Debug\DelegateRealWorldExample.exe.config
+C:\Work\Dev\C#\DelegateRealWorldExample\DelegateRealWorldExample\bin\Debug\DelegateRealWorldExample.exe
+C:\Work\Dev\C#\DelegateRealWorldExample\DelegateRealWorldExample\bin\Debug\DelegateRealWorldExample.pdb
+C:\Work\Dev\C#\DelegateRealWorldExample\DelegateRealWorldExample\obj\Debug\DelegateRealWorldExample.csproj.AssemblyReference.cache
+C:\Work\Dev\C#\DelegateRealWorldExample\DelegateRealWorldExample\obj\Debug\DelegateRealWorldExample.csproj.CoreCompileInputs.cache
+C:\Work\Dev\C#\DelegateRealWorldExample\DelegateRealWorldExample\obj\Debug\DelegateRealWorldExample.exe
+C:\Work\Dev\C#\DelegateRealWorldExample\DelegateRealWorldExample\obj\Debug\DelegateRealWorldExample.pdb
