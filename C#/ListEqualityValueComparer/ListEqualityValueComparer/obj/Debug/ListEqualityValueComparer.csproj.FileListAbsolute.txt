@@ -1,0 +1,7 @@
+C:\Work\Dev\C#\ListEqualityValueComparer\ListEqualityValueComparer\bin\Debug\ListEqualityValueComparer.exe.config
+C:\Work\Dev\C#\ListEqualityValueComparer\ListEqualityValueComparer\bin\Debug\ListEqualityValueComparer.exe
+C:\Work\Dev\C#\ListEqualityValueComparer\ListEqualityValueComparer\bin\Debug\ListEqualityValueComparer.pdb
+C:\Work\Dev\C#\ListEqualityValueComparer\ListEqualityValueComparer\obj\Debug\ListEqualityValueComparer.csproj.AssemblyReference.cache
+C:\Work\Dev\C#\ListEqualityValueComparer\ListEqualityValueComparer\obj\Debug\ListEqualityValueComparer.csproj.CoreCompileInputs.cache
+C:\Work\Dev\C#\ListEqualityValueComparer\ListEqualityValueComparer\obj\Debug\ListEqualityValueComparer.exe
+C:\Work\Dev\C#\ListEqualityValueComparer\ListEqualityValueComparer\obj\Debug\ListEqualityValueComparer.pdb
