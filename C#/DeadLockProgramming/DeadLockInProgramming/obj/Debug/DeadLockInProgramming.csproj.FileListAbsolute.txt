@@ -1,0 +1,8 @@
+C:\Work\Dev\C#\DeadLockProgramming\DeadLockInProgramming\bin\Debug\DeadLockInProgramming.exe.config
+C:\Work\Dev\C#\DeadLockProgramming\DeadLockInProgramming\bin\Debug\DeadLockInProgramming.exe
+C:\Work\Dev\C#\DeadLockProgramming\DeadLockInProgramming\bin\Debug\DeadLockInProgramming.pdb
+C:\Work\Dev\C#\DeadLockProgramming\DeadLockInProgramming\obj\Debug\DeadLockInProgramming.csproj.AssemblyReference.cache
+C:\Work\Dev\C#\DeadLockProgramming\DeadLockInProgramming\obj\Debug\DeadLockInProgramming.csproj.SuggestedBindingRedirects.cache
+C:\Work\Dev\C#\DeadLockProgramming\DeadLockInProgramming\obj\Debug\DeadLockInProgramming.csproj.CoreCompileInputs.cache
+C:\Work\Dev\C#\DeadLockProgramming\DeadLockInProgramming\obj\Debug\DeadLockInProgramming.exe
+C:\Work\Dev\C#\DeadLockProgramming\DeadLockInProgramming\obj\Debug\DeadLockInProgramming.pdb
