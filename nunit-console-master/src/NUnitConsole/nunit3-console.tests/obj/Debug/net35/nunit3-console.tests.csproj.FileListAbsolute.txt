@@ -1,0 +1,14 @@
+C:\Work\Dev\nunit-console-master\bin\Debug\net35\nunit.engine.addins
+C:\Work\Dev\nunit-console-master\bin\Debug\net35\TextSummary.xslt
+C:\Work\Dev\nunit-console-master\bin\Debug\net35\TestListWithEmptyLine.tst
+C:\Work\Dev\nunit-console-master\bin\Debug\net35\NUnit2TestResult.xsd
+C:\Work\Dev\nunit-console-master\bin\Debug\net35\ConsoleTests.nunit
+C:\Work\Dev\nunit-console-master\bin\Debug\net35\nunit3-console.tests.dll.config
+C:\Work\Dev\nunit-console-master\bin\Debug\net35\nunit3-console.tests.dll
+C:\Work\Dev\nunit-console-master\bin\Debug\net35\nunit3-console.tests.pdb
+C:\Work\Dev\nunit-console-master\src\NUnitConsole\nunit3-console.tests\obj\Debug\net35\nunit3-console.tests.csproj.AssemblyReference.cache
+C:\Work\Dev\nunit-console-master\src\NUnitConsole\nunit3-console.tests\obj\Debug\net35\nunit3-console.tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Dev\nunit-console-master\src\NUnitConsole\nunit3-console.tests\obj\Debug\net35\nunit3-console.tests.csproj.CoreCompileInputs.cache
+C:\Work\Dev\nunit-console-master\src\NUnitConsole\nunit3-console.tests\obj\Debug\net35\nunit3-console.tests.csproj.CopyComplete
+C:\Work\Dev\nunit-console-master\src\NUnitConsole\nunit3-console.tests\obj\Debug\net35\nunit3-console.tests.dll
+C:\Work\Dev\nunit-console-master\src\NUnitConsole\nunit3-console.tests\obj\Debug\net35\nunit3-console.tests.pdb

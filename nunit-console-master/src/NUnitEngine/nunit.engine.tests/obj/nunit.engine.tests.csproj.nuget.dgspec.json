@@ -1,0 +1,660 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.tests\\nunit.engine.tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\mock-assembly\\mock-assembly.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\mock-assembly\\mock-assembly.csproj",
+        "projectName": "mock-assembly",
+        "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\mock-assembly\\mock-assembly.csproj",
+        "packagesPath": "C:\\Users\\supavich\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\mock-assembly\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Work\\Dev\\nunit-console-master\\NuGet.Config",
+          "C:\\Users\\supavich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net35",
+          "net40",
+          "netcoreapp2.1",
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/nunit": {},
+          "https://www.myget.org/F/nunit-analyzers/api/v3/index.json": {},
+          "https://www.myget.org/F/nunit/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          },
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          },
+          "net35": {
+            "targetAlias": "net35",
+            "projectReferences": {}
+          },
+          "net40": {
+            "targetAlias": "net40",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        },
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        },
+        "net35": {
+          "targetAlias": "net35",
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        },
+        "net40": {
+          "targetAlias": "net40",
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj",
+        "projectName": "nunit.engine.api",
+        "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj",
+        "packagesPath": "C:\\Users\\supavich\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Work\\Dev\\nunit-console-master\\NuGet.Config",
+          "C:\\Users\\supavich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net20",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/nunit": {},
+          "https://www.myget.org/F/nunit-analyzers/api/v3/index.json": {},
+          "https://www.myget.org/F/nunit/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net20": {
+            "targetAlias": "net20",
+            "projectReferences": {}
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net20": {
+          "targetAlias": "net20",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\nunit.engine.core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\nunit.engine.core.csproj",
+        "projectName": "nunit.engine.core",
+        "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\nunit.engine.core.csproj",
+        "packagesPath": "C:\\Users\\supavich\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Work\\Dev\\nunit-console-master\\NuGet.Config",
+          "C:\\Users\\supavich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net20",
+          "netcoreapp3.1",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/nunit": {},
+          "https://www.myget.org/F/nunit-analyzers/api/v3/index.json": {},
+          "https://www.myget.org/F/nunit/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj"
+              }
+            }
+          },
+          "net20": {
+            "targetAlias": "net20",
+            "projectReferences": {
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "TestCentric.Metadata": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        },
+        "net20": {
+          "targetAlias": "net20",
+          "dependencies": {
+            "TestCentric.Metadata": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "TestCentric.Metadata": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.tests\\nunit.engine.tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.tests\\nunit.engine.tests.csproj",
+        "projectName": "nunit.engine.tests",
+        "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.tests\\nunit.engine.tests.csproj",
+        "packagesPath": "C:\\Users\\supavich\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Work\\Dev\\nunit-console-master\\NuGet.Config",
+          "C:\\Users\\supavich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net35",
+          "netcoreapp2.1",
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/nunit": {},
+          "https://www.myget.org/F/nunit-analyzers/api/v3/index.json": {},
+          "https://www.myget.org/F/nunit/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\mock-assembly\\mock-assembly.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\mock-assembly\\mock-assembly.csproj"
+              },
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj"
+              },
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\nunit.engine.core.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\nunit.engine.core.csproj"
+              },
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine\\nunit.engine.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine\\nunit.engine.csproj"
+              }
+            }
+          },
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\mock-assembly\\mock-assembly.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\mock-assembly\\mock-assembly.csproj"
+              },
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj"
+              },
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\nunit.engine.core.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\nunit.engine.core.csproj"
+              },
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine\\nunit.engine.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine\\nunit.engine.csproj"
+              }
+            }
+          },
+          "net35": {
+            "targetAlias": "net35",
+            "projectReferences": {
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\mock-assembly\\mock-assembly.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\mock-assembly\\mock-assembly.csproj"
+              },
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj"
+              },
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\nunit.engine.core.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\nunit.engine.core.csproj"
+              },
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine\\nunit.engine.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine\\nunit.engine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnitLite": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "System.ComponentModel.TypeConverter": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        },
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnitLite": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "System.ComponentModel.TypeConverter": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        },
+        "net35": {
+          "targetAlias": "net35",
+          "dependencies": {
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine\\nunit.engine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine\\nunit.engine.csproj",
+        "projectName": "nunit.engine",
+        "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine\\nunit.engine.csproj",
+        "packagesPath": "C:\\Users\\supavich\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Work\\Dev\\nunit-console-master\\NuGet.Config",
+          "C:\\Users\\supavich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net20",
+          "netcoreapp3.1",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/nunit": {},
+          "https://www.myget.org/F/nunit-analyzers/api/v3/index.json": {},
+          "https://www.myget.org/F/nunit/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj"
+              },
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\nunit.engine.core.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\nunit.engine.core.csproj"
+              }
+            }
+          },
+          "net20": {
+            "targetAlias": "net20",
+            "projectReferences": {
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj"
+              },
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\nunit.engine.core.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\nunit.engine.core.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj"
+              },
+              "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\nunit.engine.core.csproj": {
+                "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\nunit.engine.core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        },
+        "net20": {
+          "targetAlias": "net20",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

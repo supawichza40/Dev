@@ -1,0 +1,8 @@
+C:\Work\Dev\nunit-console-master\bin\Debug\net35\mock-assembly.dll
+C:\Work\Dev\nunit-console-master\bin\Debug\net35\mock-assembly.pdb
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\mock-assembly\obj\Debug\net35\mock-assembly.csproj.AssemblyReference.cache
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\mock-assembly\obj\Debug\net35\mock-assembly.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\mock-assembly\obj\Debug\net35\mock-assembly.csproj.CoreCompileInputs.cache
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\mock-assembly\obj\Debug\net35\mock-assembly.csproj.CopyComplete
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\mock-assembly\obj\Debug\net35\mock-assembly.dll
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\mock-assembly\obj\Debug\net35\mock-assembly.pdb

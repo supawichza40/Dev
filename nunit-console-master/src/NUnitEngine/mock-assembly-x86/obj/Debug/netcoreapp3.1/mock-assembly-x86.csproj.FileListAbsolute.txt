@@ -1,0 +1,8 @@
+C:\Work\Dev\nunit-console-master\bin\Debug\netcoreapp3.1\mock-assembly-x86.deps.json
+C:\Work\Dev\nunit-console-master\bin\Debug\netcoreapp3.1\mock-assembly-x86.dll
+C:\Work\Dev\nunit-console-master\bin\Debug\netcoreapp3.1\mock-assembly-x86.pdb
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\mock-assembly-x86\obj\Debug\netcoreapp3.1\mock-assembly-x86.csproj.AssemblyReference.cache
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\mock-assembly-x86\obj\Debug\netcoreapp3.1\mock-assembly-x86.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\mock-assembly-x86\obj\Debug\netcoreapp3.1\mock-assembly-x86.csproj.CoreCompileInputs.cache
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\mock-assembly-x86\obj\Debug\netcoreapp3.1\mock-assembly-x86.dll
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\mock-assembly-x86\obj\Debug\netcoreapp3.1\mock-assembly-x86.pdb

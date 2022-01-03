@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "75Bq1TXWU4XnWqhd1fgZDf6qu/4YVxJhny8Roi3Hy31FhZhpNx5oVFjGjE43/p96QZ4TXN+Sk0fN9AX7pMnMRw==",
+  "success": true,
+  "projectFilePath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit-agent-x86\\nunit-agent-x86.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\supavich\\.nuget\\packages\\testcentric.metadata\\1.7.1\\testcentric.metadata.1.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+C:\Work\Dev\nunit-console-master\bin\Debug\netstandard2.0\nunit.engine.api.deps.json
+C:\Work\Dev\nunit-console-master\bin\Debug\netstandard2.0\nunit.engine.api.dll
+C:\Work\Dev\nunit-console-master\bin\Debug\netstandard2.0\nunit.engine.api.pdb
+C:\Work\Dev\nunit-console-master\bin\Debug\netstandard2.0\nunit.engine.api.xml
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine.api\obj\Debug\netstandard2.0\nunit.engine.api.csproj.AssemblyReference.cache
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine.api\obj\Debug\netstandard2.0\nunit.engine.api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine.api\obj\Debug\netstandard2.0\nunit.engine.api.csproj.CoreCompileInputs.cache
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine.api\obj\Debug\netstandard2.0\nunit.engine.api.dll
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine.api\obj\Debug\netstandard2.0\nunit.engine.api.xml
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine.api\obj\Debug\netstandard2.0\nunit.engine.api.pdb

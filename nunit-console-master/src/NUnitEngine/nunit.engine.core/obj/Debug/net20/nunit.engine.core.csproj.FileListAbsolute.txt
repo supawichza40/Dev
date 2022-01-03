@@ -1,0 +1,8 @@
+C:\Work\Dev\nunit-console-master\bin\Debug\net20\nunit.engine.core.dll
+C:\Work\Dev\nunit-console-master\bin\Debug\net20\nunit.engine.core.pdb
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine.core\obj\Debug\net20\nunit.engine.core.csproj.AssemblyReference.cache
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine.core\obj\Debug\net20\nunit.engine.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine.core\obj\Debug\net20\nunit.engine.core.csproj.CoreCompileInputs.cache
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine.core\obj\Debug\net20\nunit.engine.core.csproj.CopyComplete
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine.core\obj\Debug\net20\nunit.engine.core.dll
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine.core\obj\Debug\net20\nunit.engine.core.pdb

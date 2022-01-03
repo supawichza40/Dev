@@ -1,0 +1,9 @@
+C:\Work\Dev\nunit-console-master\bin\Debug\net20\nunit3-console.exe.config
+C:\Work\Dev\nunit-console-master\bin\Debug\net20\nunit3-console.exe
+C:\Work\Dev\nunit-console-master\bin\Debug\net20\nunit3-console.pdb
+C:\Work\Dev\nunit-console-master\src\NUnitConsole\nunit3-console\obj\Debug\net20\nunit3-console.csproj.AssemblyReference.cache
+C:\Work\Dev\nunit-console-master\src\NUnitConsole\nunit3-console\obj\Debug\net20\nunit3-console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Dev\nunit-console-master\src\NUnitConsole\nunit3-console\obj\Debug\net20\nunit3-console.csproj.CoreCompileInputs.cache
+C:\Work\Dev\nunit-console-master\src\NUnitConsole\nunit3-console\obj\Debug\net20\nunit3-console.csproj.CopyComplete
+C:\Work\Dev\nunit-console-master\src\NUnitConsole\nunit3-console\obj\Debug\net20\nunit3-console.exe
+C:\Work\Dev\nunit-console-master\src\NUnitConsole\nunit3-console\obj\Debug\net20\nunit3-console.pdb

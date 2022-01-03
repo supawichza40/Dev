@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = NUnit.Framework
+build_property.ProjectDir = C:\Work\nunit-3.13.2\src\NUnitFramework\tests\

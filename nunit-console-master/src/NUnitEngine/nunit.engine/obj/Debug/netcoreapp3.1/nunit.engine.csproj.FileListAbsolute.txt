@@ -1,0 +1,9 @@
+C:\Work\Dev\nunit-console-master\bin\Debug\netcoreapp3.1\nunit.engine.deps.json
+C:\Work\Dev\nunit-console-master\bin\Debug\netcoreapp3.1\nunit.engine.dll
+C:\Work\Dev\nunit-console-master\bin\Debug\netcoreapp3.1\nunit.engine.pdb
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine\obj\Debug\netcoreapp3.1\nunit.engine.csproj.AssemblyReference.cache
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine\obj\Debug\netcoreapp3.1\nunit.engine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine\obj\Debug\netcoreapp3.1\nunit.engine.csproj.CoreCompileInputs.cache
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine\obj\Debug\netcoreapp3.1\nunit.engine.csproj.CopyComplete
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine\obj\Debug\netcoreapp3.1\nunit.engine.dll
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine\obj\Debug\netcoreapp3.1\nunit.engine.pdb

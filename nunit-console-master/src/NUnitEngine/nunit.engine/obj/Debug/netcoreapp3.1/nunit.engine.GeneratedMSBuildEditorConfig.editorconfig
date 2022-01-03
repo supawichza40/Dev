@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = NUnit.Engine
+build_property.ProjectDir = C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine\

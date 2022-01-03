@@ -1,0 +1,16 @@
+C:\Work\nunit-3.13.2\bin\Debug\net45\NUnit3.TestAdapter.dll
+C:\Work\nunit-3.13.2\bin\Debug\net45\NUnit3.TestAdapter.pdb
+C:\Work\nunit-3.13.2\bin\Debug\net45\nunit.engine.dll
+C:\Work\nunit-3.13.2\bin\Debug\net45\nunit.engine.api.dll
+C:\Work\nunit-3.13.2\bin\Debug\net45\Schemas\Test.xsd
+C:\Work\nunit-3.13.2\bin\Debug\net45\Schemas\TestDefinitions.xsd
+C:\Work\nunit-3.13.2\bin\Debug\net45\Schemas\TestFilter.xsd
+C:\Work\nunit-3.13.2\bin\Debug\net45\Schemas\TestFilterDefinitions.xsd
+C:\Work\nunit-3.13.2\bin\Debug\net45\Schemas\TestResult.xsd
+C:\Work\nunit-3.13.2\bin\Debug\net45\nunit.testdata.fsharp.dll
+C:\Work\nunit-3.13.2\bin\Debug\net45\nunit.testdata.fsharp.pdb
+C:\Work\nunit-3.13.2\src\NUnitFramework\testdata.fsharp\obj\Debug\net45\nunit.testdata.fsharp.fsproj.AssemblyReference.cache
+C:\Work\nunit-3.13.2\src\NUnitFramework\testdata.fsharp\obj\Debug\net45\nunit.testdata.fsharp.sourcelink.json
+C:\Work\nunit-3.13.2\src\NUnitFramework\testdata.fsharp\obj\Debug\net45\nunit.testdata.fsharp.fsproj.CopyComplete
+C:\Work\nunit-3.13.2\src\NUnitFramework\testdata.fsharp\obj\Debug\net45\nunit.testdata.fsharp.dll
+C:\Work\nunit-3.13.2\src\NUnitFramework\testdata.fsharp\obj\Debug\net45\nunit.testdata.fsharp.pdb

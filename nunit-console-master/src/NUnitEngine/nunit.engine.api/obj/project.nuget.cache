@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AQgoj4v4t3gvhmNuMZVSvp+NLGMpbO82XPQuk+wY9FoAsPQeoOjOkT10OIRdruimgtHdgpxXtdFd6sx4AFfY5w==",
+  "success": true,
+  "projectFilePath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\supavich\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\supavich\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

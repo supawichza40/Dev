@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = NUnit.ConsoleRunner
+build_property.ProjectDir = C:\Work\Dev\nunit-console-master\src\NUnitConsole\nunit3-console\

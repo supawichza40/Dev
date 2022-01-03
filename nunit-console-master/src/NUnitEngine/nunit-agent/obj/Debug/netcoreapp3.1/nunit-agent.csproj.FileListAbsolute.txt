@@ -1,0 +1,14 @@
+C:\Work\Dev\nunit-console-master\bin\Debug\agents\netcoreapp3.1\nunit-agent.exe
+C:\Work\Dev\nunit-console-master\bin\Debug\agents\netcoreapp3.1\nunit-agent.dll.config
+C:\Work\Dev\nunit-console-master\bin\Debug\agents\netcoreapp3.1\nunit-agent.deps.json
+C:\Work\Dev\nunit-console-master\bin\Debug\agents\netcoreapp3.1\nunit-agent.runtimeconfig.json
+C:\Work\Dev\nunit-console-master\bin\Debug\agents\netcoreapp3.1\nunit-agent.runtimeconfig.dev.json
+C:\Work\Dev\nunit-console-master\bin\Debug\agents\netcoreapp3.1\nunit-agent.dll
+C:\Work\Dev\nunit-console-master\bin\Debug\agents\netcoreapp3.1\nunit-agent.pdb
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit-agent\obj\Debug\netcoreapp3.1\nunit-agent.csproj.AssemblyReference.cache
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit-agent\obj\Debug\netcoreapp3.1\nunit-agent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit-agent\obj\Debug\netcoreapp3.1\nunit-agent.csproj.CoreCompileInputs.cache
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit-agent\obj\Debug\netcoreapp3.1\nunit-agent.csproj.CopyComplete
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit-agent\obj\Debug\netcoreapp3.1\nunit-agent.dll
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit-agent\obj\Debug\netcoreapp3.1\nunit-agent.pdb
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit-agent\obj\Debug\netcoreapp3.1\nunit-agent.genruntimeconfig.cache

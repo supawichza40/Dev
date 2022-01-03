@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "nunit3-console": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Work\\Dev\\nunit-console-master\\bin\\Debug\\net40\\mock-assembly.dll"
+    }
+  }
+}

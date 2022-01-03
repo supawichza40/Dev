@@ -1,0 +1,270 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v2.0": {
+      "TestCentric.Metadata/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net20/testcentric.engine.metadata.dll": {}
+        },
+        "runtime": {
+          "lib/net20/testcentric.engine.metadata.dll": {}
+        }
+      },
+      "nunit.engine.api/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v2.0",
+        "compile": {
+          "bin/placeholder/nunit.engine.api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/nunit.engine.api.dll": {}
+        }
+      },
+      "nunit.engine.core/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v2.0",
+        "dependencies": {
+          "TestCentric.Metadata": "1.7.1",
+          "nunit.engine.api": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/nunit.engine.core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/nunit.engine.core.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v2.0/win7-x86": {
+      "TestCentric.Metadata/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net20/testcentric.engine.metadata.dll": {}
+        },
+        "runtime": {
+          "lib/net20/testcentric.engine.metadata.dll": {}
+        }
+      },
+      "nunit.engine.api/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v2.0",
+        "compile": {
+          "bin/placeholder/nunit.engine.api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/nunit.engine.api.dll": {}
+        }
+      },
+      "nunit.engine.core/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v2.0",
+        "dependencies": {
+          "TestCentric.Metadata": "1.7.1",
+          "nunit.engine.api": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/nunit.engine.core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/nunit.engine.core.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0": {
+      "TestCentric.Metadata/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/testcentric.engine.metadata.dll": {}
+        },
+        "runtime": {
+          "lib/net40/testcentric.engine.metadata.dll": {}
+        }
+      },
+      "nunit.engine.api/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v2.0",
+        "compile": {
+          "bin/placeholder/nunit.engine.api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/nunit.engine.api.dll": {}
+        }
+      },
+      "nunit.engine.core/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v2.0",
+        "dependencies": {
+          "TestCentric.Metadata": "1.7.1",
+          "nunit.engine.api": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/nunit.engine.core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/nunit.engine.core.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0/win7-x86": {
+      "TestCentric.Metadata/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/testcentric.engine.metadata.dll": {}
+        },
+        "runtime": {
+          "lib/net40/testcentric.engine.metadata.dll": {}
+        }
+      },
+      "nunit.engine.api/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v2.0",
+        "compile": {
+          "bin/placeholder/nunit.engine.api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/nunit.engine.api.dll": {}
+        }
+      },
+      "nunit.engine.core/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v2.0",
+        "dependencies": {
+          "TestCentric.Metadata": "1.7.1",
+          "nunit.engine.api": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/nunit.engine.core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/nunit.engine.core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestCentric.Metadata/1.7.1": {
+      "sha512": "QjdwsUJXJbGmFKNiTZbWeRpwhqRcEAtgb+dwR4YVK8xUBBEfXfrFV074f1DBtnrOfAIT+LnZCeVVeg/fYUlAEA==",
+      "type": "package",
+      "path": "testcentric.metadata/1.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "lib/net20/testcentric.engine.metadata.dll",
+        "lib/net20/testcentric.engine.metadata.pdb",
+        "lib/net40/testcentric.engine.metadata.dll",
+        "lib/net40/testcentric.engine.metadata.pdb",
+        "lib/netstandard1.6/testcentric.engine.metadata.dll",
+        "lib/netstandard1.6/testcentric.engine.metadata.pdb",
+        "lib/netstandard2.0/testcentric.engine.metadata.dll",
+        "lib/netstandard2.0/testcentric.engine.metadata.pdb",
+        "testcentric.metadata.1.7.1.nupkg.sha512",
+        "testcentric.metadata.nuspec",
+        "testcentric.png"
+      ]
+    },
+    "nunit.engine.api/1.0.0": {
+      "type": "project",
+      "path": "../nunit.engine.api/nunit.engine.api.csproj",
+      "msbuildProject": "../nunit.engine.api/nunit.engine.api.csproj"
+    },
+    "nunit.engine.core/1.0.0": {
+      "type": "project",
+      "path": "../nunit.engine.core/nunit.engine.core.csproj",
+      "msbuildProject": "../nunit.engine.core/nunit.engine.core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v2.0": [
+      "nunit.engine.api >= 1.0.0",
+      "nunit.engine.core >= 1.0.0"
+    ],
+    ".NETFramework,Version=v4.0": [
+      "nunit.engine.api >= 1.0.0",
+      "nunit.engine.core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\supavich\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit-agent-x86\\nunit-agent-x86.csproj",
+      "projectName": "nunit-agent-x86",
+      "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit-agent-x86\\nunit-agent-x86.csproj",
+      "packagesPath": "C:\\Users\\supavich\\.nuget\\packages\\",
+      "outputPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit-agent-x86\\obj\\",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Work\\Dev\\nunit-console-master\\NuGet.Config",
+        "C:\\Users\\supavich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net20",
+        "net40"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://ci.appveyor.com/nuget/nunit": {},
+        "https://www.myget.org/F/nunit-analyzers/api/v3/index.json": {},
+        "https://www.myget.org/F/nunit/api/v3/index.json": {}
+      },
+      "frameworks": {
+        "net20": {
+          "targetAlias": "net20",
+          "projectReferences": {
+            "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj": {
+              "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj"
+            },
+            "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\nunit.engine.core.csproj": {
+              "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\nunit.engine.core.csproj"
+            }
+          }
+        },
+        "net40": {
+          "targetAlias": "net40",
+          "projectReferences": {
+            "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj": {
+              "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.api\\nunit.engine.api.csproj"
+            },
+            "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\nunit.engine.core.csproj": {
+              "projectPath": "C:\\Work\\Dev\\nunit-console-master\\src\\NUnitEngine\\nunit.engine.core\\nunit.engine.core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "allWarningsAsErrors": true,
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net20": {
+        "targetAlias": "net20",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+      },
+      "net40": {
+        "targetAlias": "net40",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run start-time="2021-12-28 16:00:37Z">
+  <command-line><![CDATA["C:\Work\Dev\nunit-console-master\bin\Debug\net20\nunit3-console.exe"  C:\Work\Dev\nunit-console-master\bin\Debug\net40\mock-assembly.dll]]></command-line>
+</test-run>

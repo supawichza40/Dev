@@ -1,0 +1,17 @@
+C:\Work\Dev\nunit-console-master\bin\Debug\netcoreapp2.1\EngineTests.nunit
+C:\Work\Dev\nunit-console-master\bin\Debug\netcoreapp2.1\TransformWithDTD.xslt
+C:\Work\Dev\nunit-console-master\bin\Debug\netcoreapp2.1\TextSummary.xslt
+C:\Work\Dev\nunit-console-master\bin\Debug\netcoreapp2.1\alt.config
+C:\Work\Dev\nunit-console-master\bin\Debug\netcoreapp2.1\nunit.engine.tests.dll.config
+C:\Work\Dev\nunit-console-master\bin\Debug\netcoreapp2.1\nunit.engine.tests.deps.json
+C:\Work\Dev\nunit-console-master\bin\Debug\netcoreapp2.1\nunit.engine.tests.runtimeconfig.json
+C:\Work\Dev\nunit-console-master\bin\Debug\netcoreapp2.1\nunit.engine.tests.runtimeconfig.dev.json
+C:\Work\Dev\nunit-console-master\bin\Debug\netcoreapp2.1\nunit.engine.tests.dll
+C:\Work\Dev\nunit-console-master\bin\Debug\netcoreapp2.1\nunit.engine.tests.pdb
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine.tests\obj\Debug\netcoreapp2.1\nunit.engine.tests.csproj.AssemblyReference.cache
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine.tests\obj\Debug\netcoreapp2.1\nunit.engine.tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine.tests\obj\Debug\netcoreapp2.1\nunit.engine.tests.csproj.CoreCompileInputs.cache
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine.tests\obj\Debug\netcoreapp2.1\nunit.engine.tests.csproj.CopyComplete
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine.tests\obj\Debug\netcoreapp2.1\nunit.engine.tests.dll
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine.tests\obj\Debug\netcoreapp2.1\nunit.engine.tests.pdb
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit.engine.tests\obj\Debug\netcoreapp2.1\nunit.engine.tests.genruntimeconfig.cache

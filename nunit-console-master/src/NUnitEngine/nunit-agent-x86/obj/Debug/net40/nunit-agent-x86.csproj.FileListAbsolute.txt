@@ -1,0 +1,9 @@
+C:\Work\Dev\nunit-console-master\bin\Debug\agents\net40\nunit-agent-x86.exe.config
+C:\Work\Dev\nunit-console-master\bin\Debug\agents\net40\nunit-agent-x86.exe
+C:\Work\Dev\nunit-console-master\bin\Debug\agents\net40\nunit-agent-x86.pdb
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit-agent-x86\obj\Debug\net40\nunit-agent-x86.csproj.AssemblyReference.cache
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit-agent-x86\obj\Debug\net40\nunit-agent-x86.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit-agent-x86\obj\Debug\net40\nunit-agent-x86.csproj.CoreCompileInputs.cache
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit-agent-x86\obj\Debug\net40\nunit-agent-x86.csproj.CopyComplete
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit-agent-x86\obj\Debug\net40\nunit-agent-x86.exe
+C:\Work\Dev\nunit-console-master\src\NUnitEngine\nunit-agent-x86\obj\Debug\net40\nunit-agent-x86.pdb
