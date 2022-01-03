@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DeadlockInProgramming")]
+[assembly: AssemblyTitle("DeadLockInProgramming")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DeadlockInProgramming")]
+[assembly: AssemblyProduct("DeadLockInProgramming")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("52fb008c-2ad1-4d18-af85-95f46f363ff2")]
+[assembly: Guid("ce98eb1c-f8b2-439c-b51f-d470ff3e51af")]
 
 // Version information for an assembly consists of the following four values:
 //

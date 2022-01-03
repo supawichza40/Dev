@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{52FB008C-2AD1-4D18-AF85-95F46F363FF2}</ProjectGuid>
+    <ProjectGuid>{CE98EB1C-F8B2-439C-B51F-D470FF3E51AF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DeadlockInProgramming</RootNamespace>
-    <AssemblyName>DeadlockInProgramming</AssemblyName>
+    <RootNamespace>DeadLockInProgramming</RootNamespace>
+    <AssemblyName>DeadLockInProgramming</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
