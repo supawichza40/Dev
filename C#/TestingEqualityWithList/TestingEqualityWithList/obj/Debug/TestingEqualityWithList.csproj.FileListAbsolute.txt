@@ -1,7 +1,0 @@
-C:\Work\Dev\C#\TestingEqualityWithList\TestingEqualityWithList\bin\Debug\TestingEqualityWithList.exe.config
-C:\Work\Dev\C#\TestingEqualityWithList\TestingEqualityWithList\bin\Debug\TestingEqualityWithList.exe
-C:\Work\Dev\C#\TestingEqualityWithList\TestingEqualityWithList\bin\Debug\TestingEqualityWithList.pdb
-C:\Work\Dev\C#\TestingEqualityWithList\TestingEqualityWithList\obj\Debug\TestingEqualityWithList.csproj.SuggestedBindingRedirects.cache
-C:\Work\Dev\C#\TestingEqualityWithList\TestingEqualityWithList\obj\Debug\TestingEqualityWithList.csproj.CoreCompileInputs.cache
-C:\Work\Dev\C#\TestingEqualityWithList\TestingEqualityWithList\obj\Debug\TestingEqualityWithList.exe
-C:\Work\Dev\C#\TestingEqualityWithList\TestingEqualityWithList\obj\Debug\TestingEqualityWithList.pdb
