@@ -1,0 +1,16 @@
+C:\Work\Dev\C#\SandBox1NUnitTest\SandBox1NUnitTest\obj\Debug\SandBox1NUnitTest.csproj.AssemblyReference.cache
+C:\Work\Dev\C#\SandBox1NUnitTest\SandBox1NUnitTest\obj\Debug\SandBox1NUnitTest.csproj.CoreCompileInputs.cache
+C:\Work\Dev\C#\SandBox1NUnitTest\SandBox1NUnitTest\bin\Debug\NUnit3.TestAdapter.dll
+C:\Work\Dev\C#\SandBox1NUnitTest\SandBox1NUnitTest\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Work\Dev\C#\SandBox1NUnitTest\SandBox1NUnitTest\bin\Debug\nunit.engine.dll
+C:\Work\Dev\C#\SandBox1NUnitTest\SandBox1NUnitTest\bin\Debug\nunit.engine.api.dll
+C:\Work\Dev\C#\SandBox1NUnitTest\SandBox1NUnitTest\bin\Debug\nunit.engine.core.dll
+C:\Work\Dev\C#\SandBox1NUnitTest\SandBox1NUnitTest\bin\Debug\testcentric.engine.metadata.dll
+C:\Work\Dev\C#\SandBox1NUnitTest\SandBox1NUnitTest\bin\Debug\SandBox1NUnitTest.exe.config
+C:\Work\Dev\C#\SandBox1NUnitTest\SandBox1NUnitTest\bin\Debug\SandBox1NUnitTest.exe
+C:\Work\Dev\C#\SandBox1NUnitTest\SandBox1NUnitTest\bin\Debug\SandBox1NUnitTest.pdb
+C:\Work\Dev\C#\SandBox1NUnitTest\SandBox1NUnitTest\bin\Debug\nunit.framework.dll
+C:\Work\Dev\C#\SandBox1NUnitTest\SandBox1NUnitTest\bin\Debug\nunit.framework.xml
+C:\Work\Dev\C#\SandBox1NUnitTest\SandBox1NUnitTest\obj\Debug\SandBox1NUnitTest.csproj.CopyComplete
+C:\Work\Dev\C#\SandBox1NUnitTest\SandBox1NUnitTest\obj\Debug\SandBox1NUnitTest.exe
+C:\Work\Dev\C#\SandBox1NUnitTest\SandBox1NUnitTest\obj\Debug\SandBox1NUnitTest.pdb

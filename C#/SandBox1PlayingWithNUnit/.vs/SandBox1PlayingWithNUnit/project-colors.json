@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "41016d03-d0ca-4222-ae4c-a913806c754f": {
+      "ProjectGuid": "41016d03-d0ca-4222-ae4c-a913806c754f",
+      "DisplayName": "SandBox1PlayingWithNUnit",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
