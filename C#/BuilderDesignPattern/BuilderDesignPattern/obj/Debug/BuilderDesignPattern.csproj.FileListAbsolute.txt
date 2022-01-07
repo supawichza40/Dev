@@ -1,0 +1,7 @@
+C:\Work\Dev\C#\BuilderDesignPattern\BuilderDesignPattern\bin\Debug\BuilderDesignPattern.exe.config
+C:\Work\Dev\C#\BuilderDesignPattern\BuilderDesignPattern\bin\Debug\BuilderDesignPattern.exe
+C:\Work\Dev\C#\BuilderDesignPattern\BuilderDesignPattern\bin\Debug\BuilderDesignPattern.pdb
+C:\Work\Dev\C#\BuilderDesignPattern\BuilderDesignPattern\obj\Debug\BuilderDesignPattern.csproj.AssemblyReference.cache
+C:\Work\Dev\C#\BuilderDesignPattern\BuilderDesignPattern\obj\Debug\BuilderDesignPattern.csproj.CoreCompileInputs.cache
+C:\Work\Dev\C#\BuilderDesignPattern\BuilderDesignPattern\obj\Debug\BuilderDesignPattern.exe
+C:\Work\Dev\C#\BuilderDesignPattern\BuilderDesignPattern\obj\Debug\BuilderDesignPattern.pdb
