@@ -22,23 +22,32 @@ namespace FactoryDesignPattern
         {
             NameOfCompany = name;
             YearFounded = yearFounded;
-            programmerEmployee = newEmployee;
+            _employeeList = newEmployee;
         }
         public string NameOfCompany { get; set; }
         public int YearFounded { get; set; }
 
-        List<Employee> programmerEmployee;
+        List<Employee> _employeeList;
         public void RecruitNewEmployee(string[] skills)
         {
-            Employee newRecruit = new ProgrammerFactoryEmployee().CreateOrFindEmployee(skills);
-            //Process from interview to questionair must pass before add to companylist.
+            var existingEmployee = new EmployeeDataBase().FindEmployeeFromSkills(skills);
+            if (existingEmployee!=null)
+            {
+                _employeeList.Add(existingEmployee);
+            }
+            else
+            {
+                Employee newRecruit = EmployeeFactory.Create(skills);
+                _employeeList.Add(newRecruit);
+            }
+            
+        
 
-            programmerEmployee.Add(newRecruit);
         }
         public void IntroductionOfCompany()
         {
             Console.WriteLine($"Company Name:{NameOfCompany} Year Founded:{YearFounded} Employee:");
-            PrintListOfEmployee(programmerEmployee);
+            PrintListOfEmployee(_employeeList);
         }
         public void PrintListOfEmployee(List<Employee> lstEmployee)
         {
@@ -50,10 +59,11 @@ namespace FactoryDesignPattern
         }
     }
 
-    class ProgrammerFactoryEmployee 
+    class EmployeeFactory 
     {
-        public Employee CreateOrFindEmployee(string[] skills)
+        public static Employee Create(string[] skills)
         {
+            //find the employee in the repository if return false
             //Imagine skills has been passed into database and return the most relevant employee result in the database.
             return new EmployeeDataBase().FindEmployeeFromSkills(skills);
 
