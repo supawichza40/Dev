@@ -1,0 +1,7 @@
+C:\Work\Dev\C#\OpenClosePrinciple\OpenClosePrinciple\bin\Debug\OpenClosePrinciple.exe.config
+C:\Work\Dev\C#\OpenClosePrinciple\OpenClosePrinciple\bin\Debug\OpenClosePrinciple.exe
+C:\Work\Dev\C#\OpenClosePrinciple\OpenClosePrinciple\bin\Debug\OpenClosePrinciple.pdb
+C:\Work\Dev\C#\OpenClosePrinciple\OpenClosePrinciple\obj\Debug\OpenClosePrinciple.csproj.AssemblyReference.cache
+C:\Work\Dev\C#\OpenClosePrinciple\OpenClosePrinciple\obj\Debug\OpenClosePrinciple.csproj.CoreCompileInputs.cache
+C:\Work\Dev\C#\OpenClosePrinciple\OpenClosePrinciple\obj\Debug\OpenClosePrinciple.exe
+C:\Work\Dev\C#\OpenClosePrinciple\OpenClosePrinciple\obj\Debug\OpenClosePrinciple.pdb
