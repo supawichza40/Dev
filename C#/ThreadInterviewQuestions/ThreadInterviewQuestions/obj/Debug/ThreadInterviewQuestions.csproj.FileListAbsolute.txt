@@ -1,0 +1,7 @@
+C:\Work\Dev\C#\ThreadInterviewQuestions\ThreadInterviewQuestions\bin\Debug\ThreadInterviewQuestions.exe.config
+C:\Work\Dev\C#\ThreadInterviewQuestions\ThreadInterviewQuestions\bin\Debug\ThreadInterviewQuestions.exe
+C:\Work\Dev\C#\ThreadInterviewQuestions\ThreadInterviewQuestions\bin\Debug\ThreadInterviewQuestions.pdb
+C:\Work\Dev\C#\ThreadInterviewQuestions\ThreadInterviewQuestions\obj\Debug\ThreadInterviewQuestions.csproj.AssemblyReference.cache
+C:\Work\Dev\C#\ThreadInterviewQuestions\ThreadInterviewQuestions\obj\Debug\ThreadInterviewQuestions.csproj.CoreCompileInputs.cache
+C:\Work\Dev\C#\ThreadInterviewQuestions\ThreadInterviewQuestions\obj\Debug\ThreadInterviewQuestions.exe
+C:\Work\Dev\C#\ThreadInterviewQuestions\ThreadInterviewQuestions\obj\Debug\ThreadInterviewQuestions.pdb
