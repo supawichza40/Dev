@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DJBeautyAndThaiSpaBooking", "DJBeautyAndThaiSpaBooking\DJBeautyAndThaiSpaBooking.csproj", "{1BC0B1CD-45DF-4733-8574-36C41CB9AEB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "djbeautyandthaispa.tests", "djbeautyandthaispa.tests\djbeautyandthaispa.tests.csproj", "{813BB06A-4F29-4548-A282-45E008B3D00F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BC0B1CD-45DF-4733-8574-36C41CB9AEB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC0B1CD-45DF-4733-8574-36C41CB9AEB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC0B1CD-45DF-4733-8574-36C41CB9AEB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC0B1CD-45DF-4733-8574-36C41CB9AEB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813BB06A-4F29-4548-A282-45E008B3D00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813BB06A-4F29-4548-A282-45E008B3D00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813BB06A-4F29-4548-A282-45E008B3D00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813BB06A-4F29-4548-A282-45E008B3D00F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BF0730F-4FA5-4831-AA4B-95FF747E3A18}
+	EndGlobalSection
+EndGlobal

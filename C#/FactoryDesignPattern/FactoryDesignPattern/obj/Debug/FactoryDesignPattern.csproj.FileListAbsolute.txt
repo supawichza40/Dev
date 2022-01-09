@@ -1,7 +1,0 @@
-C:\Work\Dev\C#\FactoryDesignPattern\FactoryDesignPattern\bin\Debug\FactoryDesignPattern.exe.config
-C:\Work\Dev\C#\FactoryDesignPattern\FactoryDesignPattern\bin\Debug\FactoryDesignPattern.exe
-C:\Work\Dev\C#\FactoryDesignPattern\FactoryDesignPattern\bin\Debug\FactoryDesignPattern.pdb
-C:\Work\Dev\C#\FactoryDesignPattern\FactoryDesignPattern\obj\Debug\FactoryDesignPattern.csproj.AssemblyReference.cache
-C:\Work\Dev\C#\FactoryDesignPattern\FactoryDesignPattern\obj\Debug\FactoryDesignPattern.csproj.CoreCompileInputs.cache
-C:\Work\Dev\C#\FactoryDesignPattern\FactoryDesignPattern\obj\Debug\FactoryDesignPattern.exe
-C:\Work\Dev\C#\FactoryDesignPattern\FactoryDesignPattern\obj\Debug\FactoryDesignPattern.pdb
