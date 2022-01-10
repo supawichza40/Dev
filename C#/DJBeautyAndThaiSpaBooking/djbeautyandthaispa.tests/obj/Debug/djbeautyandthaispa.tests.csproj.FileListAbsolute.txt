@@ -23,3 +23,11 @@ C:\Users\supaw\Documents\c-sharp-Programming\C#\DJBeautyAndThaiSpaBooking\djbeau
 C:\Users\supaw\Documents\c-sharp-Programming\C#\DJBeautyAndThaiSpaBooking\djbeautyandthaispa.tests\obj\Debug\djbeautyandthaispa.tests.csproj.CopyComplete
 C:\Users\supaw\Documents\c-sharp-Programming\C#\DJBeautyAndThaiSpaBooking\djbeautyandthaispa.tests\obj\Debug\djbeautyandthaispa.tests.dll
 C:\Users\supaw\Documents\c-sharp-Programming\C#\DJBeautyAndThaiSpaBooking\djbeautyandthaispa.tests\obj\Debug\djbeautyandthaispa.tests.pdb
+C:\Users\supaw\Documents\c-sharp-Programming\C#\DJBeautyAndThaiSpaBooking\djbeautyandthaispa.tests\bin\Debug\Castle.Core.dll
+C:\Users\supaw\Documents\c-sharp-Programming\C#\DJBeautyAndThaiSpaBooking\djbeautyandthaispa.tests\bin\Debug\Moq.dll
+C:\Users\supaw\Documents\c-sharp-Programming\C#\DJBeautyAndThaiSpaBooking\djbeautyandthaispa.tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\supaw\Documents\c-sharp-Programming\C#\DJBeautyAndThaiSpaBooking\djbeautyandthaispa.tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\supaw\Documents\c-sharp-Programming\C#\DJBeautyAndThaiSpaBooking\djbeautyandthaispa.tests\bin\Debug\Castle.Core.xml
+C:\Users\supaw\Documents\c-sharp-Programming\C#\DJBeautyAndThaiSpaBooking\djbeautyandthaispa.tests\bin\Debug\Moq.xml
+C:\Users\supaw\Documents\c-sharp-Programming\C#\DJBeautyAndThaiSpaBooking\djbeautyandthaispa.tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\supaw\Documents\c-sharp-Programming\C#\DJBeautyAndThaiSpaBooking\djbeautyandthaispa.tests\bin\Debug\System.Threading.Tasks.Extensions.xml

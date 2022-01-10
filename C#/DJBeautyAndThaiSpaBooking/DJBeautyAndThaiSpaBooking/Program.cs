@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System;
 
 namespace DJBeautyAndThaiSpaBooking
 {
@@ -14,8 +15,8 @@ namespace DJBeautyAndThaiSpaBooking
             Employee na = new Employee("Na", 22, new string[] { "Sunday", "Monday", "Tuesday" });
             na.AddingWorkingTime("10:00", "1:00");
             na.AddingWorkingTime("13:00", "2:00");
-            na.AddingWorkingTime("12:00", "1:00");
-
+            na.GetAvailableTime();
+            Console.ReadKey();
             List<Employee> employeeList = new List<Employee> { joy, na };
 
             List<Employee> todayEmployeeList = Employee.GetListOfEmployeeForToday(employeeList);

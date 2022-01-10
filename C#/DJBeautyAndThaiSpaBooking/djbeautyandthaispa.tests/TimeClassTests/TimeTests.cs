@@ -1,6 +1,7 @@
 ﻿
 using System;
 using DJBeautyAndThaiSpaBooking;
+using Moq;
 using NUnit.Framework;
 
 namespace djbeautyandthaispa.tests.TimeClassTests
@@ -8,6 +9,18 @@ namespace djbeautyandthaispa.tests.TimeClassTests
     [TestFixture]
     public class TimeTests
     {
+        private Employee na;//Test employee
+        private Time t;
+        Mock<IReadFromUser> inputFromUser;
+
+        [SetUp]
+        public void SetUp()
+        {
+            na = new Employee("Na", 22, new string[] { "Sunday", "Monday", "Tuesday" });
+            t = new Time();
+            inputFromUser = new Mock<IReadFromUser>();
+
+        }
 
         [TestCase("12.10")]
         [TestCase("12:10")]
@@ -46,6 +59,21 @@ namespace djbeautyandthaispa.tests.TimeClassTests
         {
             var result = Time.ValidateInputCorrectTimeSpanFormat(input);
             Assert.IsTrue(result);
+        }
+        [Test]
+        public void GetStartTimeInputFromUser_UserEnteredCorrectInput_ReturnExpectedOutput()
+        {
+            inputFromUser.Setup(f=>f.ReadFromUser()).Returns("12:11");
+            var result = t.GetStartTimeInputFromUser(na,inputFromUser.Object);
+            Assert.That(result, Is.EqualTo("12:11"));
+        }
+        [Test]
+        public void GetStartTimeInputFromUser_UserEnteredInvalidThenCorrectInput_ReturnExpectedOutput()
+        { 
+            inputFromUser.SetupSequence(f => f.ReadFromUser()).Returns("ac:33").Returns("12:11");
+            var result = t.GetStartTimeInputFromUser(na, inputFromUser.Object);
+            Assert.That(result, Is.EqualTo("12:11"));
+
         }
     }
 }

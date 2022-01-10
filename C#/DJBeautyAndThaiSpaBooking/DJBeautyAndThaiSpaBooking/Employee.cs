@@ -37,6 +37,36 @@ namespace DJBeautyAndThaiSpaBooking
             
 
         }
+        public void GetAvailableTime()
+        {
+            var staffWorkingTime = Workingtime;
+            TimeSpan closingTime = new TimeSpan(21, 00, 00);
+            TimeSpan openingTime = new TimeSpan(10, 00, 00);
+            if (staffWorkingTime==null)
+            {
+                Console.WriteLine("Available Time: 10:00-21:00");
+
+            }
+            else
+            {
+                for (int i = Workingtime.Count; i >= 0; i--)
+                {
+                    if (i == Workingtime.Count)
+                    {
+                        Console.WriteLine($"Available Time@:{Workingtime[Workingtime.Count - 1].Item2} with {closingTime - Workingtime[Workingtime.Count - 1].Item2}");
+                    }
+                    else if (i == 0)
+                    {
+                        Console.WriteLine($"Avaialbe Time@:{openingTime} with {Workingtime[0].Item1 - openingTime}");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Available Time@:{Workingtime[Workingtime.Count - 2].Item2} with {Workingtime[Workingtime.Count - 1].Item1 - Workingtime[Workingtime.Count - 2].Item2}");
+                    }
+                }
+              
+            }
+        }
         #endregion
         #region Employee static method
         public static List<Employee> GetListOfEmployeeForToday(List<Employee> employeeList)
