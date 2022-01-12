@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace DJBeautyAndThaiSpaBooking
 {
-/// <summary>
-/// Employee class is design for working schedule especially for hourly based work, this is good with beauticiam, massage therapist and other servicing jobs.
-/// </summary>
+    /// <summary>
+    /// Employee class is design for working schedule especially for hourly based work, this is good with beauticiam, massage therapist and other servicing jobs.
+    /// </summary>
     public class Employee
     {
         #region Employee Attributes
@@ -17,7 +17,7 @@ namespace DJBeautyAndThaiSpaBooking
         #endregion
         #region Employee constructor
         //private constructor for builder class only
-        public Employee(string name, double ratePerHr, string[] dayWorking)
+        public Employee(string name, string[] dayWorking ,double ratePerHr=22)
         {
             Name = name;
             RatePerHr = ratePerHr;
@@ -51,6 +51,11 @@ namespace DJBeautyAndThaiSpaBooking
             {
                 for (int i = Workingtime.Count; i >= 0; i--)
                 {
+                    if (Workingtime.Count == 0 &&i==0)
+                    {
+                        Console.WriteLine($"Name:{Name} Available Time:10AM - 9PM ");
+                        break;
+                    }
                     if (i == Workingtime.Count)
                     {
                         Console.WriteLine($"Available Time@:{Workingtime[Workingtime.Count - 1].Item2} with {closingTime - Workingtime[Workingtime.Count - 1].Item2}");
@@ -112,9 +117,11 @@ namespace DJBeautyAndThaiSpaBooking
             }
             public Employee Build()
             {
-                return new Employee(_name, _ratePerHr, _dayWorking);
+                return new Employee(_name, _dayWorking);
             }
         }
         #endregion
     }
-}
+
+    }
+

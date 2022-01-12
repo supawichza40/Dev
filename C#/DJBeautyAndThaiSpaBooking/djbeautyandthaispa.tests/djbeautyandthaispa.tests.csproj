@@ -69,6 +69,7 @@
   <ItemGroup>
     <Compile Include="EmployeeClassTest\EmployeeClassTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReceptionClassTests\ReceptionTests.cs" />
     <Compile Include="TimeClassTests\TimeTests.cs" />
   </ItemGroup>
   <ItemGroup>
