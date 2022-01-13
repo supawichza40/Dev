@@ -1,0 +1,12 @@
+C:\Work\Dev\C#\PhoneBookCSharpProject\PhoneBookCSharpProject\bin\Debug\PhoneBookCSharpProject.exe.config
+C:\Work\Dev\C#\PhoneBookCSharpProject\PhoneBookCSharpProject\bin\Debug\PhoneBookCSharpProject.exe
+C:\Work\Dev\C#\PhoneBookCSharpProject\PhoneBookCSharpProject\bin\Debug\PhoneBookCSharpProject.pdb
+C:\Work\Dev\C#\PhoneBookCSharpProject\PhoneBookCSharpProject\obj\Debug\PhoneBookCSharpProject.csproj.AssemblyReference.cache
+C:\Work\Dev\C#\PhoneBookCSharpProject\PhoneBookCSharpProject\obj\Debug\PhoneBookCSharpProject.Properties.Resources.resources
+C:\Work\Dev\C#\PhoneBookCSharpProject\PhoneBookCSharpProject\obj\Debug\PhoneBookCSharpProject.csproj.GenerateResource.cache
+C:\Work\Dev\C#\PhoneBookCSharpProject\PhoneBookCSharpProject\obj\Debug\PhoneBookCSharpProject.csproj.CoreCompileInputs.cache
+C:\Work\Dev\C#\PhoneBookCSharpProject\PhoneBookCSharpProject\obj\Debug\PhoneBookCSharpProject.exe
+C:\Work\Dev\C#\PhoneBookCSharpProject\PhoneBookCSharpProject\obj\Debug\PhoneBookCSharpProject.pdb
+C:\Work\Dev\C#\PhoneBookCSharpProject\PhoneBookCSharpProject\obj\Debug\PhoneBookCSharpProject.Form1.resources
+C:\Work\Dev\C#\PhoneBookCSharpProject\PhoneBookCSharpProject\bin\Debug\Database1.mdf
+C:\Work\Dev\C#\PhoneBookCSharpProject\PhoneBookCSharpProject\bin\Debug\Database1_log.ldf
