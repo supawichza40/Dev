@@ -22,7 +22,7 @@ namespace DJBeautyAndThaiSpaBooking
             return "Expected";
         }
     }
-    public class Time
+    public class TimeConverter
     {
         public static TimeSpan ConvertStringHoursAndMinutesToTimeSpanFormat(string time)
         {

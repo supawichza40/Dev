@@ -29,8 +29,8 @@ namespace DJBeautyAndThaiSpaBooking
         {
             //var employeeStartTime = GetStartTimeInputFromUser();
             //var durationOfTreatment = GetDurationOfTreatment();
-            var startTimeInTimeFormat = Time.ConvertStringHoursAndMinutesToTimeSpanFormat(startTime);
-            var numberOfHoursInTimeFormat = Time.ConvertStringHoursAndMinutesToTimeSpanFormat(numberOfHour);
+            var startTimeInTimeFormat = TimeConverter.ConvertStringHoursAndMinutesToTimeSpanFormat(startTime);
+            var numberOfHoursInTimeFormat = TimeConverter.ConvertStringHoursAndMinutesToTimeSpanFormat(numberOfHour);
             numberOfHourWorked += numberOfHoursInTimeFormat;//Add number of hour to the staff totalHrWork.
             Workingtime.Add(new Tuple<TimeSpan,TimeSpan> (startTimeInTimeFormat, startTimeInTimeFormat+numberOfHoursInTimeFormat));
             Workingtime.Sort();
