@@ -15,6 +15,7 @@ namespace DJBeautyAndThaiSpaBooking
             return startTime;
         }
     }
+    //Test to create Mock instead.
     public class AskInputFromUserFake : IReadFromUser
     {
         public string ReadFromUser()
@@ -29,34 +30,7 @@ namespace DJBeautyAndThaiSpaBooking
             string[] listOfTimeStringtime = time.Split(' ', ':', '.');
             return new TimeSpan(Int32.Parse(listOfTimeStringtime[0]), Int32.Parse(listOfTimeStringtime[1]),0);
         }
-        public string GetStartTimeInputFromUser(Employee staff,IReadFromUser reader)
-        {  
-            if (reader==null)
-            {
-                reader = new AskInputFromUser();
-            }
-            bool isCorrectFormat = false;
-            string startTime = "";
-            while(!isCorrectFormat)
-            {
-                try
-                {
-                    Console.WriteLine($"What is the start time for{staff.Name}?Please input in 12:10 format");
-                    startTime = reader.ReadFromUser();
-                    isCorrectFormat = ValidateInputCorrectTimeSpanFormat(startTime);
-                    
 
-                }
-                catch (Exception)
-                {
-
-                    throw;
-                }
-            }
-            return startTime;
-          
-            
-        }
         public static bool ValidateInputCorrectTimeSpanFormat(string startTime)
         {
             //Check when split == 2

@@ -16,8 +16,13 @@ namespace djbeautyandthaispa.tests.TimeClassTests
         [SetUp]
         public void SetUp()
         {
+<<<<<<< HEAD
             na = new Employee("Na", 22, new string[] { "Sunday", "Monday", "Tuesday" });
             sut = new TimeConverter();
+=======
+            na = new Employee("Na", new string[] { "Sunday", "Monday", "Tuesday" });
+            t = new Time();
+>>>>>>> 48fc2ecc46980fcc2b927c1d90d3711e0ac05ba3
             inputFromUser = new Mock<IReadFromUser>();
 
         }
@@ -63,6 +68,7 @@ namespace djbeautyandthaispa.tests.TimeClassTests
         [Test]
         public void GetStartTimeInputFromUser_UserEnteredCorrectInput_ReturnExpectedOutput()
         {
+<<<<<<< HEAD
             inputFromUser.Setup(f=>f.ReadFromUser()).Returns("12:11");
             var result = sut.GetStartTimeInputFromUser(na,inputFromUser.Object);
             Assert.That(result, Is.EqualTo("12:11"));
@@ -73,7 +79,28 @@ namespace djbeautyandthaispa.tests.TimeClassTests
             inputFromUser.SetupSequence(f => f.ReadFromUser()).Returns("ac:33").Returns("12:11");
             var result = sut.GetStartTimeInputFromUser(na, inputFromUser.Object);
             Assert.That(result, Is.EqualTo("12:11"));
-
+=======
+            inputFromUser.Setup(f => f.ReadFromUser()).Returns("12:11");
+            var result = Reader.GetStartTimeInputFromUser(na, inputFromUser.Object);
+            Assert.That(result, Is.EqualTo("12:11"));
         }
+        //[Test]
+        //public void GetStartTimeInputFromUser_UserEnteredInvalidThenCorrectInput_ReturnExpectedOutput()
+        //{ 
+        //    inputFromUser.SetupSequence(f => f.ReadFromUser()).Returns("ac:33").Returns("12:11");
+        //    var result = t.GetStartTimeInputFromUser(na, inputFromUser.Object);
+        //    Assert.That(result, Is.EqualTo("12:11"));
+>>>>>>> 48fc2ecc46980fcc2b927c1d90d3711e0ac05ba3
+
+        //}
+        //[Test]
+        //public void GetStartTimeInputFromUser_PassingValidStaff_ReturnExpectedValue()
+        //{
+        //    Reader reader = new Reader();
+        //    Mock<Reader> readerMock = new Mock<Reader>();
+        //    readerMock.Setup(obj => obj.ReadFromUser()).Returns("12:10");
+        //    var result = readerMock.Object.GetStartTimeInputFromUser(na);
+        //    Assert.That(result, Is.EqualTo("12:10"));
+        //}
     }
 }
