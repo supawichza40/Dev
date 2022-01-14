@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=f, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HiJacking Google/Reddit</h1>
+    <h2>Google Search</h2>
+    <!-- anything before? should be include in the search -->
+    <!-- https://www.google.com/search?q=hello -->
+    <form action="https://www.google.com/search">
+        <label for="searchGoogle">Search Google</label>
+        <input type="text" id="searchGoogle" name="q">
+        <input type="submit">
+
+    </form>
+    <!-- https://www.reddit.com/search/?q=sdf -->
+    <h2>Reddit Search</h2>
+    <form action="https://www.reddit.com/search/">
+        <label for="searchReddit">Search Reddit</label>
+        <input type="text" id="searchReddit" name = "q">
+        <button type="submit">Submit</button>
+    </form>
+    <!-- https://www.youtube.com/results?search_query=he -->
+    <h2>Youtube Search</h2>
+    <form action="https://www.youtube.com/results">
+        <label for="searchYoutube">Search Youtube</label>
+        <input type="text" id="searchYoutube" name="search_query">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
