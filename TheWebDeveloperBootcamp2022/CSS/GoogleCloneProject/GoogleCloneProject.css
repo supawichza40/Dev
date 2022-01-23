@@ -1,0 +1,153 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* My css start here */
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    height: 100vh;
+    margin:5px;
+    box-sizing: border-box;
+
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.5em;
+} */
+.right-side-nav{
+    display: inline-block;
+
+}
+.left-side-nav{
+    display: inline;
+
+}
+a{
+    padding: 20px;
+
+    font-size: 1em;
+    color: black;
+    font-weight: bold;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 1.5em ;
+}
+html{
+    font-family: "roboto",Arial, Helvetica, sans-serif;
+}
+#search-icon{
+    height: 1.5em;
+
+}
+#microphone-icon{
+    height: 1.5em;
+}
+#google-logo{
+    width: 20%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin: 20px;
+
+    
+}
+.searchButtons button{
+    padding: 0px 10px 0px 10px;
+    margin: 20px;
+    background-color: white;
+    border: none;
+}
+.searchButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#search-bar{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    height: 3em;
+    width: 45em;
+    border:1px solid #eaeaea;
+    outline:none;
+}
+.google-main-search-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.left-foot-nav{
+    max-width: 500px;
+    min-width: 500px;
+}
+.right-foot-nav{
+    max-width: 500px;
+    /* min-width: 500px; */
+    padding-left: 200px;
+
+    /* border:5px solid black; */
+
+
+}

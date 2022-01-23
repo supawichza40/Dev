@@ -1,0 +1,79 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 6em;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+nav {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+ul,li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    flex-grow: 1;
+    display:flex;
+    justify-content: space-evenly;
+}
+/* when width is 800 change h1 to purple */
+@media(width:800px){
+    h1{
+        color:purple;
+    }
+}
+/* when width is more than or equal to 800 change to red */
+/* x>=800 */
+@media(min-width:800px){
+    h1{
+        color:red;
+    }
+}
+/* when width is less than or equal to 1600 change to yellow */
+/* x<=1600 */
+@media(max-width:1600px){
+    h1{color:yellow;}
+}
+@media(max-width:360px){
+    h1{
+        color:purple;
+        font-size: 40px;
+    }
+}
+@media(max-width:470px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5em;
+        align-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+
+
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+
+    }
+    h1{
+        font-size: 3em;
+    }
+    nav ul li:nth-last-of-type((2)){
+        flex-wrap: wrap;
+        align-self: center;
+    }
+
+}
+
+
+
