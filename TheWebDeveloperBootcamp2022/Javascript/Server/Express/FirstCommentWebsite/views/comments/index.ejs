@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show all comments</title>
+</head>
+<body>
+    <h1>Show all comments</h1>
+    <button><a href="/comments/new">New Comment</a></button>
+    <ul>
+        <% for(const comment of comments){ %>
+            <li> 
+                <%= comment.comment %> - <b> <%= comment.username %> </b> 
+                <a href="/comments/<%= comment.id %> ">Detail</a>
+                
+                <form action="/comments/<%= comment.id %>?_method=DELETE" method="post" style="display:inline">
+                    <button type="submit">Delete</button>
+                </form>
+                
+            </li>
+            <% } %>
+             
+
+    </ul>
+
+</body>
+</html>

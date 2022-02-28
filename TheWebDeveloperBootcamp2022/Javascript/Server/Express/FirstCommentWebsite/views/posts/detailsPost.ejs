@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specific Post</title>
+</head>
+<body>
+    <h1>Post: <%= post.content %> </h1>
+    <h3>By <%= post.username %> </h2>
+    <h4>Post ID: <%= post.id %> </h4>
+    <a href="/posts/<%= post.id %>/edit ">Edit Post</a>
+
+    <br>
+    <h3>Comments Area</h3>
+    <a href="/posts/<%= post.id %>/comments ">All Comments</a>
+    <a href="/posts/<%= post.id %>/comments/new ">New Comment</a>
+    <% for(let comment of post.comments){ %> 
+        <div>
+            <h5>Comment ID:<%= comment.id %> </h5>
+            <h6><%= comment.comment %> </h6>
+            <h7>By: <%= comment.username %> </h7>
+            <a href="/posts/<%= post.id %>/comments/<%= comment.id %>/edit">Edit</a>
+            <form action="/posts/<%= post.id %>/comments/<%= comment.id %>?_method=DELETE" method="post">
+                <button type="submit">Delete</button>
+            </form>
+        </div>
+
+    <% } %> 
+</body>
+</html>

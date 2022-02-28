@@ -1,0 +1,28 @@
+<%- include("partials/head.ejs") %> 
+<body>
+    <%- include("partials/navbar.ejs") %> 
+    
+    <div class="container">
+        <h1>Your random number is <%= Math.random()*10 %>
+        </h1>
+        <h1>Your random number from JS file using rand variable is <%= data.rand %>
+        </h1>
+        <h1>This is <%= data.oddOrEven %>
+        </h1>
+        <h1>This is using logic in html EJS</h1>
+    </div>
+
+    <% if(data.rand%2==0) {%>
+        <h1>This is even</h1> 
+        <% } else{ %> 
+        <h1>This is odd</h1>
+        <% } %> 
+
+    <h1>This is a cat name</h1>
+    <ul>
+        <% for(let cat of data.cats){ %> 
+            <li> <%= cat %>  </li>
+            <% } %> 
+    </ul>
+</body>
+</html>

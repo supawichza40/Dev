@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Home Page</h1>
+    <h1>List of all available products</h1>
+    <form action="/products" method="get">
+        <label for="search">Search</label>
+        <input type="text" name="category" id="category" placeholder="Category type">
+        <button type="submit">Search</button>
+    </form>
+    <button><a href="/products/new"> New Item</a></button>
+    <button><a href="/products/new"> New Item</a></button>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Farm</th>
+            <th>More details link</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+
+        <% for(const item of data) {%>
+            <tr>
+                <td><%= item.name %> </td>
+                <td><%= item.price %> </td>
+                <td><%= item.category %> </td>
+                
+                <td><%= item.farm.name %> </td>
+                <td><a href="/products/<%= item._id %>">Detail</a></td>
+                <td><a href="/products/<%= item._id %>/update">Update</a></td>
+                <td>
+                    <form action="/products/<%= item._id %>?_method=DELETE" method="post">
+                        
+                    <button type="submit">Delete</button>
+                </form>
+                </td>
+            </tr>
+        <% } %>
+        
+
+    </table>
+
+
+</body>
+</html>

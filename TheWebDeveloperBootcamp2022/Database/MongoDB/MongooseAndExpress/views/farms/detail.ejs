@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Detail</title>
+</head>
+<body>
+    <h1>Farm Detail</h1>
+    <h1>Name:<%= farm.name %> </h1>
+    <h2>City:<%= farm.city %> </h2>
+    <h2>Email:<%= farm.email %> </h2>
+    <ul>
+    <% for(let product of farm.products){ %> 
+            <li>Name:<%= product.name %> Price: <%= product.price %> Category:<%= product.category %>   </li>
+        <% } %> 
+    </ul>
+</body>
+</html>

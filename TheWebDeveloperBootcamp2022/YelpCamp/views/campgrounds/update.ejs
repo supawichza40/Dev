@@ -1,0 +1,16 @@
+<% layout("layouts/boilerplate.ejs") %>
+    <h1>Update Campground</h1>
+    <form action="/campgrounds/<%= campground._id %>?_method=PATCH " method="post">
+        <label for="name" class="form-label">Name</label>
+        <input class="form-control" type="text" name="name" id="name" placeholder="<%= campground.name %> " value="<%= campground.name %> ">
+        <label for="location" class="form-label">Location</label>
+        <input class="form-control" type="text" name="location" id="location" value="<%= campground.location %> ">
+        <label for="price" class="form-label">Price</label>
+        <input class="form-control" type="number" name="price" id="price" value="<%= campground.price %> ">
+        <label for="image" class="form-label">Image URL</label>
+        <input class="form-control" type="text" name="image" id="image" value = "<%= campground.image %> ">
+        <label for="description" class="form-label">Description</label>
+        <textarea class="form-control" name="description" id="description" cols="30" rows="5"><%= campground.description %></textarea>
+        <button class = "btn btn-lg btn-primary m-3"type="submit">Update</button>
+        
+    </form>

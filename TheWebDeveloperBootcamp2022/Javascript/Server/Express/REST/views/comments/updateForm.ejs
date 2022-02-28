@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updating Comment Form</title>
+</head>
+<body>
+    <h1>Comment ID: <%= comment.id %> </h1>
+    <form action="/comments/<%= comment.id %>?_method=PATCH" method = "POST">
+        <label for="oldComment">Old Comment</label>
+        <input type="text" name="oldComment" id="oldComment" placeholder="<%= comment.comment %>" disabled>
+        <label for="newComment">New Comment</label>
+        <input type="text" name="comment" id="comment">
+        <label for="author">By</label>
+        <button type="submit">Submit</button>
+        
+    </form>
+    <form action="" method="get"></form>
+    <h1> By <%= comment.username %> </h1>
+</body>
+</html>

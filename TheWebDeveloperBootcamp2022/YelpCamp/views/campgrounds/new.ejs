@@ -1,0 +1,25 @@
+<% layout("layouts/boilerplate.ejs") %>
+    <h1>New Campground</h1>
+    <form action="/campgrounds" method="post" class="needs-validation" novalidate>
+
+        <label for="name" class="form-label">Campground Name</label>
+        <input class = "form-control"type="text" name="name" id="name" required>
+        <label for="location" class="form-label">Location</label>
+        <input class = "form-control"type="text" name="location" id="location" required>
+        
+        <label for="price" class="form-label mt-2">Campground Price per night</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">$</span>
+            </div>
+            <input type="number" class="form-control" name="price" id="price" step="0.01"  aria-label="Amount Per night" required>
+            
+        </div>
+        <label for="image" class="form-label">Image URL</label>
+        <input type="text" name="image" id="image" class="form-control"  required>
+        <br>
+        <label for="description" class="form-label">Campground Description</label>
+        <br>
+        <textarea name="description" class="form-control" id="description" cols="30" rows="10" required></textarea>
+        <button type="submit" class="btn btn-primary btn-lg btn-success m-4">Create New Camp</button>
+    </form>
