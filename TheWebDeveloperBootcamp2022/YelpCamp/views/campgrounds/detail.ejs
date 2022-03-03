@@ -27,6 +27,7 @@
                     </form>
                 </div>
                 <div>
+                    <%- include("../partials/flash.ejs") %> 
                     <form action="/campgrounds/<%= campground._id %>" method="post">
                         <div class="m-2">
                         <h1>Leave your review here!</h1>

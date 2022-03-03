@@ -8,7 +8,60 @@ const ejsMate = require("ejs-mate");
 const { error } = require("console");
 const AppError = require("./views/error");
 const Joi = require("joi");
+var bodyParser = require("body-parser");
 const Review = require("./models/review");
+const camgroundRoute = require("./routes/camgrounds");
+const reviewRoute = require("./routes/reviews");
+const userRoute = require("./routes/users");
+const session = require("express-session");
+const flash = require("connect-flash");
+const passport = require("passport");
+const localStrategy = require("passport-local");
+const User = require("./models/user");
+const sessionConfig = {
+    secret: "this should be a secret",
+    resave: true,
+    saveUninitialized: true,
+    // cookie: { secure: true }
+    cookie: {
+        //so the expire is use if expire reach user will be force to log out.
+        httpOnly:true,
+        expires: Date.now() + 1000 * 60 * 60 * 24 * 7,//Expire a week from now.
+        maxAge: 1000 * 60 * 60 * 24 * 7
+        
+    }
+}
+
+app.use(session(sessionConfig))
+app.use(passport.initialize())
+app.use(passport.session())
+passport.use(new localStrategy(User.authenticate()))
+passport.serializeUser(User.serializeUser());
+passport.deserializeUser(User.deserializeUser());
+app.use(flash());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.engine("ejs", ejsMate);
+app.use(methodOverride("_method"));
+app.use(express.json()) // for parsing application/json
+app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
+
+app.use(express.static(path.join(__dirname,"public")))
+app.set("views", path.join(__dirname, "views"));
+app.set("view engine", "ejs");
+app.use((req, res, next) => {
+    console.log(req.session);
+    res.locals.currentuser = req.user;
+    res.locals.campgroundMessage = req.flash("success");
+    res.locals.reviewMessage = req.flash("successReview");
+    res.locals.error = req.flash("error");
+    res.locals.userSuccessRegister = req.flash("userSuccess")
+    res.locals.successLogin = req.flash("successLogin");
+    res.locals.successes = req.flash("successes")
+    next();
+})
+app.use("/campgrounds", camgroundRoute);
+app.use("/campgrounds/:id", reviewRoute);
+app.use("/", userRoute);
 //we do not need to write try and catch everywhere
 function wrapAsync(fn) {
     return function (req, res, next) {
@@ -40,104 +93,33 @@ main().catch(err => console.log(err));
 async function main() {
     await mongoose.connect('mongodb://localhost:27017/CampGround');
 }
-app.engine("ejs", ejsMate);
-app.use(methodOverride("_method"));
-app.use(express.json()) // for parsing application/json
-app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
-
-app.set("views", path.join(__dirname, "views"));
-app.set("view engine", "ejs");
 app.get("/", (req, res) => {
     console.log("This is a home page");
     res.render("home.ejs")
 })
-app.get("/campgrounds/new", (req, res) => {
-    res.render("campgrounds/new.ejs");
-})
-app.get("/campgrounds", async(req, res) => {
-    const result = await (Campground.find({}));
-    res.render("campgrounds/index.ejs",{campgrounds:result})
-})
-app.get("/campgrounds/:id", async(req, res) => {
-    const { id } = req.params;
-    const foundCampground = await (Campground.findById(req.params.id).populate("reviews"));
-    console.log(foundCampground)
-    res.render("campgrounds/detail.ejs", { campground: foundCampground });
-})
 
-
-app.post("/campgrounds",validateCampgroundData, wrapAsync(async (req, res, next) => {
-
-    const { name, location, price, description,image } = req.body;
-    const object = new Campground({
-        name: name,
-        location: location,
-        price: price,
-        image:image,
-        description:description
-    })
-    await (object.save());
-    res.redirect("/campgrounds");
-    
-}))
-app.get("/campgrounds/:id/update", async(req, res) => {
-    const { id } = req.params;
-    const foundCampground = await (Campground.findById(id));
-    res.render("campgrounds/update.ejs", { campground: foundCampground });
-
+app.get("/count", (req, res) => {
+    if (req.session.count>0) {
+        req.session.count += 1;
+    }
+    else {
+        req.session.count = 1;
+    }
+    console.log("req.session");
+    res.send(`This is my ${req.session.count} times`)
 })
-app.patch("/campgrounds/:id", async (req, res) => {
-    
-    const { id } = req.params;
-    const { name, location, price, description,image } = req.body;
-    console.log(name, location, price, description);
-    await (Campground.findByIdAndUpdate(id, { name: name, location: location, price: price,image:image, description: description }));
-    res.redirect("/campgrounds");
-    
+app.get("/fakeuser", async(req, res) => {
+    const user = new User({ email: "supawichzaa@gmail.com", username: "supawichza40002333333" });
+    const newUser = await (User.register(user, "chicken"));
+    console.log(newUser);
 })
-app.delete("/campgrounds/:id", async (req, res) => {
-    const { id } = req.params;
-    const result = await (Campground.findByIdAndDelete(id));
-    res.redirect("/campgrounds");
-})
-//Review
-app.post("/campgrounds/:id", async(req, res) => {
-    const { id } = req.params;
-    const { body, rating } = req.body;
-    console.log(body, rating, id);
-    const newReview = new Review({
-        body: body,
-        rating:rating
-    })
-    console.log(newReview)
-    const foundCampground = await Campground.findById(id);
-    foundCampground.reviews.push(newReview);
-    console.log(foundCampground);
-    await foundCampground.save();
-    await newReview.save();
-    res.redirect(`/campgrounds/${id}`);
-    
-})
-app.delete("/campgrounds/:id/reviews/:reviewID", async(req, res) => {
-    const { id } = req.params
-    const { reviewID } = req.params;
-    const getCampgroundById = await Campground.findById(id);
-    await Review.findByIdAndDelete(reviewID);
-    // console.log(getCampgroundById.reviews[8]._id.equals(reviewID));
-    console.log(reviewID);
-    console.log(getCampgroundById.reviews.filter(r => !(r._id.equals(reviewID))));
-    getCampgroundById.reviews = getCampgroundById.reviews.filter(r => !(r._id.equals(reviewID)));
-    await getCampgroundById.save();
-    res.redirect(`/campgrounds/${id}`);
-    
-
-})
-//End of Review
 app.use(function (err, req, res, next) {
     console.log(err);
     console.dir(err);
     res.status(500).render("campgrounds/error.ejs",{err})
 })
+
+
 app.listen(3000, () => {
     console.log("Listening to port 3000")
 })

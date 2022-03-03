@@ -1,0 +1,40 @@
+<% if(campgroundMessage != "") { %> 
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    <%= campgroundMessage %>
+</div>
+<% } %> 
+<% if(reviewMessage !="" ) { %>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        <%= reviewMessage %>
+    </div>
+<% } %>
+<% if(error !="" ) { %>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        <%= error %>
+    </div>
+    <% } %>
+
+<% if(userSuccessRegister !="" ) { %>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        <%= userSuccessRegister %>
+    </div>
+    <% } %>
+
+    
+<% if(successLogin !="" ) { %>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        <%= successLogin %>
+    </div>
+    <% } %>
+<% if(successes !="" ) { %>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        <%= successes %>
+    </div>
+    <% } %>
+

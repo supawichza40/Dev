@@ -1,4 +1,5 @@
 <% layout("layouts/boilerplate.ejs") %> 
+    <%- include("../partials/flash.ejs") %> 
     <h1>Campground</h1>        
     <% for(let camp of campgrounds){ %> 
         <h2><a href="/campgrounds/<%= camp._id %> "><%= camp.name %> </a></h2>
