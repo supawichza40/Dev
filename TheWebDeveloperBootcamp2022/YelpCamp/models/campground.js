@@ -14,11 +14,23 @@ const campgroundSchema = new mongoose.Schema({
         type: String,
         
     },
-    image: {
-        type:String
-    },
+    // image: {
+    //     type:String
+    // },
+    images: [{
+        url: {
+           type:String
+        },
+        filename: {
+            type:String
+        }
+    }],
     description: {
         type:String
+    },
+    author: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "User"
     },
     reviews: [{
         type: mongoose.Schema.Types.ObjectId,

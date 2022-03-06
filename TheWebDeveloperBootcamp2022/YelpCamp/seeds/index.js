@@ -7,7 +7,6 @@ const GetRandomNumber = function (maxNumber) {
 }
 // console.log(cities[0]);
 // console.log(cities[0].city)
-console.log(GetRandomNumber(10))
 main().catch(err => console.log(err));
 
 async function main() {
@@ -30,9 +29,20 @@ const seedDB = async () => {
             name: `${descriptors[GetRandomNumber(descriptors.length)]} ${places[GetRandomNumber(places.length)]}`,
             location: `${cities[GetRandomNumber(1000)].city} ${cities[GetRandomNumber(1000)].state} `,
             // image: 'https://source.unsplash.com/collection/483251',
-            image:'https://picsum.photos/200/300',
+            images: [
+                {
+                    url: 'https://res.cloudinary.com/kingofgodz/image/upload/v1646598960/YelpCamp/qvlpupwipwygkjapu17u.jpg',
+                    filename:"YelpCamp/anab3x972rsprbw1nsqe"
+                },
+                {
+                    url: 'https://res.cloudinary.com/kingofgodz/image/upload/v1646598960/YelpCamp/jfeksfg4mxo0sbcmnfdu.jpg',
+                    filename:"YelpCamp/anab3x9sdfasdfasdffe"
+                }
+            ],
             description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique ea aperiam in deleniti ad dignissimos explicabo, ipsum numquam culpa laboriosam ullam voluptas labore dolore quaerat? Libero aperiam quae quos aspernatur.",
-            price: randomPrice
+            price: randomPrice,
+            author: "622101f1c62f896b12f1fd4e",
+            reviews:[]
             
         })
         await (c.save());
@@ -40,5 +50,6 @@ const seedDB = async () => {
 }
 
 seedDB();
+console.log("Done")
 
 

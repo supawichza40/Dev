@@ -11,7 +11,8 @@ router.post("/", async (req, res) => {
     const { body, rating } = req.body;
     const newReview = new Review({
         body: body,
-        rating: rating
+        rating: rating,
+        author: req.user._id
     })
     const foundCampground = await Campground.findById(id);
     foundCampground.reviews.push(newReview);

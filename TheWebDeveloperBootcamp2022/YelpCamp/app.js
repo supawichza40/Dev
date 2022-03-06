@@ -1,3 +1,8 @@
+if (process.env.NODE_ENV !== "production") {
+    require("dotenv").config();
+}
+const multer = require("multer");
+const upload = multer({dest: 'uploads/'})
 const express = require("express");
 const app = express();
 const path = require("path");
@@ -49,8 +54,7 @@ app.use(express.static(path.join(__dirname,"public")))
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 app.use((req, res, next) => {
-    console.log(req.session);
-    res.locals.currentuser = req.user;
+    res.locals.currentuser = req.user ;
     res.locals.campgroundMessage = req.flash("success");
     res.locals.reviewMessage = req.flash("successReview");
     res.locals.error = req.flash("error");
@@ -98,21 +102,8 @@ app.get("/", (req, res) => {
     res.render("home.ejs")
 })
 
-app.get("/count", (req, res) => {
-    if (req.session.count>0) {
-        req.session.count += 1;
-    }
-    else {
-        req.session.count = 1;
-    }
-    console.log("req.session");
-    res.send(`This is my ${req.session.count} times`)
-})
-app.get("/fakeuser", async(req, res) => {
-    const user = new User({ email: "supawichzaa@gmail.com", username: "supawichza40002333333" });
-    const newUser = await (User.register(user, "chicken"));
-    console.log(newUser);
-})
+
+
 app.use(function (err, req, res, next) {
     console.log(err);
     console.dir(err);

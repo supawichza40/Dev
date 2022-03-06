@@ -1,92 +1,53 @@
+const path = require("path");
+//initialisation variables
+const { renderNewCampgroundForm, index, getIndividualCampground, createNewCampground, getCampgroundUpdateForm, updateCampground, deleteCampground } = require("../controllers/campgrounds")
 const express = require("express");
-const router = express.Router();
-const Campground = require("../models/campground");
-const methodOverride = require("method-override");
-const Joi = require("joi");
-var bodyParser = require("body-parser");
-const app = express();
-const isLoggedIn = require("../public/javascript/middleware/isLogin")
+const multer = require("multer");
+//Cloud storage
+const { storage } = require("../cloudinary")
+const upload = multer({storage})
+//End of cloud storage
+//This is for local storage
+// var storageLocal = multer.diskStorage({
+//     destination: function (req, file, callback) {
+//         callback(null, './uploads');
+//     },
+    
+//     filename: function (req, file, callback) {
+//         var fname = file.originalname+ path.extname(file.originalname);
+        
+//         callback(null, fname);
+        
+//     }
+// });
+// const upload = multer({
+//     storage:storageLocal
+// })
+//End of local storage
+Campground = require("../models/campground");
+methodOverride = require("method-override");
+Joi = require("joi");
+bodyParser = require("body-parser");
+isLoggedIn = require("../public/javascript/middleware/isLogin")
+reqProtector = require("../public/javascript/middleware/reqProtector")
+validateCampgroundData = require("../public/javascript/middleware/validateCampgroundData")
+wrapAsync = require("../public/javascript/middleware/errorWrapper")
+//Configuration
+
+router = express.Router();
+app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
-
-
-function wrapAsync(fn) {
-    return function (req, res, next) {
-        fn(req, res, next).catch(e => next(e));
-    }
-}
-const validateCampgroundData = function (req, res, next) {
-    const campgroundSchemaJOI = Joi.object({
-        name: Joi.string().required(),
-        price: Joi.number().required(),
-        location: Joi.string().required(),
-        image: Joi.string().required(),
-        description: Joi.string().required()
-    })
-    const { error } = campgroundSchemaJOI.validate(req.body);
-    //this will catch if joi provide any error.
-    if (error) {
-        const msg = error.details.map(el => el.message).join(",");
-        throw new AppError(404, msg);
-    }
-    //if there is no error, then will call the next middleware.
-    else {
-        next();
-    }
-}
 router.use(methodOverride("_method"))
-router.get("/new", isLoggedIn ,(req, res) => {
-        res.render("campgrounds/new.ejs");
+//Route
+router.get("/new", isLoggedIn ,renderNewCampgroundForm)
+router.get("/", index)
+router.get("/:id", getIndividualCampground)
+router.post("", upload.array("image"),validateCampgroundData, wrapAsync(createNewCampground))
+// router.post("",upload.array("image"), (req, res) => {
+//     console.log(req.body, req.files)
+// })
+router.get("/:id/update", reqProtector, getCampgroundUpdateForm);
+router.patch("/:id", updateCampground);
+router.delete("/:id", deleteCampground)
 
-})
-
-router.get("/", async (req, res) => {
-    console.log(req.user)
-    const result = await (Campground.find({}));
-    res.render("campgrounds/index.ejs", { campgrounds: result })
-})
-router.get("/:id", async (req, res) => {
-    const { id } = req.params;
-    const foundCampground = await (Campground.findById(req.params.id).populate("reviews"));
-    if (foundCampground == null) {
-        req.flash("error","This page is no longer exist.")
-        res.redirect("/campgrounds")
-    }
-    res.render("campgrounds/detail.ejs", { campground: foundCampground });
-})
-
-
-router.post("", validateCampgroundData, wrapAsync(async (req, res, next) => {
-
-    const { name, location, price, description, image } = req.body;
-    const object = new Campground({
-        name: name,
-        location: location,
-        price: price,
-        image: image,
-        description: description
-    })
-    await (object.save());
-    req.flash("success","Successfully create new campground!")
-    res.redirect("/campgrounds");
-
-}))
-router.get("/:id/update", async (req, res) => {
-    const { id } = req.params;
-    const foundCampground = await (Campground.findById(id));
-    res.render("campgrounds/update.ejs", { campground: foundCampground });
-
-})
-router.patch("/:id", async (req, res) => {
-
-    const { id } = req.params;
-    const { name, location, price, description, image } = req.body;
-    await (Campground.findByIdAndUpdate(id, { name: name, location: location, price: price, image: image, description: description }));
-    res.redirect("/campgrounds");
-
-})
-router.delete("/:id", async (req, res) => {
-    const { id } = req.params;
-    const result = await (Campground.findByIdAndDelete(id));
-    res.redirect("/campgrounds");
-})
 module.exports = router;
